@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,79 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.weather-search{
+  border-radius: 5px;
+  display: inline;
+  height: 30px;
+
+}
+
+.main-name{
+  margin: 50px;
+  color: blanchedalmond;
+  height: 60px;
+  font-size: x-large;
+  font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+.temp{
+  color: blanchedalmond;
+
+  /* margin-right: 950px; */
+  font-size: xx-large;
+  width: 150px;
+
+}
+
+.pre-hu{
+  color: blanchedalmond;
+  display: flex;
+
+}
+
+.pre{
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 115px;
+}
+
+.hum{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.pre-des{
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.pre-hu-des{
+  color: blanchedalmond;
+  display: flex;
+
+}
+
+.middle{
+  display: flex;
+  
+}
+
+.mid-rd{
+  margin-left: 250px;
+  color: blanchedalmond;
+}
+
+.wind{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.wind-des{
+  margin-left: 30px;
 }
